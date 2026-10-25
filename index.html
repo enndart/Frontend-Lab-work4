@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Стецина, ІО-43, резюме, персональна сторінка, улюблене місто">
+    <meta name="description" content="Веб-сторінка студента групи ІО-43 Стецини С. О. для лаб. роботи №1">
+    <title>Стецина С. О., ІО-43 - Лабораторна робота №4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Стецина Сергій Олександрович</h2>
+    <p>Дата і місце народження: 9 квітня 2007 року, м.Львів</p>
+    <p id="target-element" class="clickable">Освіта: Яворівська гімназія імені Осипа Маковея, м.Яворів; НТУУ "КПІ", м.Київ</p>
+
+    <p class="next-target clickable"><strong>Хобі:</strong></p>
+    <ul>
+        <li>Програмування та розробка ПЗ</li>
+        <li>Відеомонтаж і комп'ютерна графіка</li>
+        <li>Відеоігри</li>
+        <li>Читання літератури</li>
+    </ul>
+
+    <p><strong>Улюблені фільми:</strong></p>
+    <ol>
+        <li>"Темний Лицар" (The Dark Knight), 2008</li>
+        <li>"Назад у майбутнє 3" (Back to the future 3), 1990</li>
+        <li>"Стрінгер" (Nightcrawler), 2014</li>
+        <li>"Пірати Карибського моря: На краю світу" (Pirates of the Caribbean: At World's End), 2007</li>
+    </ol>
+
+    <p>
+        Яворів — місто в Україні, адміністративний центр Яворівської міської громади та Яворівського району Львівської області.
+    </p>
+    <p>
+        Назву топоніма «Яворів» виводять від яворів, яких багато зростає в долині річки Шкло.</p>
+    <p>
+        За іншою версією назва міста як краю пішла від легендарного княжича Я́вора, про якого згадується в давньоруських хроніках XIII—XIV століть.
+    </p>
+
+    <div id="image-container">
+        <a href="https://uk.wikipedia.org/wiki/%D0%AF%D0%B2%D0%BE%D1%80%D1%96%D0%B2" target="_blank" id="img-link">
+            <img id="city-img" src="yavoriv1.jpg" alt="Ратуша міста Яворова" width="600">
+        </a>
+    </div>
+
+    <div class="controls-wrapper">
+        <button id="btn-add">Додати</button>
+        <button id="btn-zoom-in">Збільшити</button>
+        <button id="btn-zoom-out">Зменшити</button>
+        <button id="btn-remove">Видалити</button>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
